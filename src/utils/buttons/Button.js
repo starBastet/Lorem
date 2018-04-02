@@ -53,8 +53,6 @@ class Button extends Component
 	
 	compileJsx()
 	{
-		//var data = this.state.jDataA;
-		
 		var jsx = <div>
 					<span>{this.label}</span>
 				  </div>

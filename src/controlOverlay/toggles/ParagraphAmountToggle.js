@@ -65,8 +65,6 @@ class ParagraphAmountToggle extends Component
 	
 	compileJsx()
 	{
-		//var data = this.state.jDataA;
-		
 		var jsx = <div>
 					<span>{this.text}{this.state.paragraphAmount}</span>
 					<Button 

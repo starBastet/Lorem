@@ -75,8 +75,6 @@ class ParagraphSizeToggle extends Component
 	
 	compileJsx()
 	{
-		//var data = this.state.jDataA;
-		
 		var jsx = <div>
 					<span>PARAGRAPH SIZE:</span>
 					{this.createButtons()}

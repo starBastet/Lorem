@@ -26,7 +26,6 @@ class ControlOverlay extends Component
 		
 		this.show = this.show.bind(this);
 		this.callMenu = this.callMenu.bind(this);
-		this.updateFillerType = this.updateFillerType.bind(this);
 		this.updateParagraphAmount = this.updateParagraphAmount.bind(this);
 		this.updateParagraphSize = this.updateParagraphSize.bind(this);
 		//this.compileJsx = this.compileJsx.bind(this);
@@ -64,11 +63,6 @@ class ControlOverlay extends Component
 	callMenu()
 	{
 		this.callMenuCallback();
-	}
-	
-	updateFillerType()
-	{
-		
 	}
 	
 	updateParagraphAmount(amount)

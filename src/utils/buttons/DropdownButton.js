@@ -53,8 +53,6 @@ class DropdownButton extends Component
 	
 	compileJsx()
 	{
-		//var data = this.state.jDataA;
-		
 		var jsx = <div>
 					<span>{this.state.label}</span>
 					<Triangle/>

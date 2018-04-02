@@ -43,14 +43,6 @@ class LoremDisplay extends Component
 		}
 	}
 	
-	/*shouldComponentUpdate(newProps,newState)
-	{
-		if (newState.)
-		{
-			
-		}
-	}*/
-	
 	show()
 	{
 		this.setState(
