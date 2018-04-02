@@ -1,0 +1,27 @@
+.menuItemContainer
+{
+	position:relative;
+	margin:0 auto;
+	padding:4px 0 4px 0;
+	width:auto;
+	height:auto;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#8eab7f;
+	transition:all 500ms ease-out;
+}
+
+.selected
+{
+	color:#ffffff;
+	background-color:#8eab7f;
+}
+
+/*  DESKTOP  */
+@media only screen and (min-device-width: 768px)
+{
+	.menuItemContainer
+	{
+		padding:2px 0 2px 0;
+	}
+}

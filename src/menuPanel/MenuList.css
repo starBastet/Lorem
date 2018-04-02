@@ -1,0 +1,27 @@
+#menuListContainer
+{
+	position:relative;
+	margin:0 auto;
+	padding-top:85%;
+	width:auto;
+	height:auto;
+}
+
+/*  LANDSCAPE  */
+/* and (max-device-width: 736px)*/
+@media only screen and (orientation: landscape)
+{
+	#menuListContainer
+	{
+		padding-top:6%;
+	}
+}
+
+/*  DESKTOP  */
+@media only screen and (min-device-width: 768px)
+{
+	#menuListContainer
+	{
+		padding-top:4%;
+	}
+}

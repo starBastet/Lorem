@@ -1,0 +1,41 @@
+#brandingContainer
+{
+	position:relative;
+	margin:0 auto;
+	margin-top:10px;
+	margin-bottom:20px;
+	width:auto;
+	height:auto;
+	color:#ffffff;
+	text-align:center;
+	font-size:2em;
+	transition:all 250ms ease-out;
+}
+
+#brandingContainer .large
+{
+	font-size:1.4em;
+}
+
+/*  LANDSCAPE  */
+@media only screen and (orientation: landscape) and (max-device-width: 601px)
+{
+	#brandingContainer
+	{
+		position:absolute;
+		width:40%;
+		padding-top:20px;
+		font-size:1.5em;
+	}
+}
+
+/*  DESKTOP  */
+@media only screen and (min-device-width: 768px)
+{
+	#brandingContainer
+	{
+		position:absolute;
+		width:50%;
+		padding-top:20px;
+	}
+}

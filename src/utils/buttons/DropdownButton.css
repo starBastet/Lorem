@@ -1,0 +1,24 @@
+#dropdownButtonContainer
+{
+	position:relative;
+	display:inline-block;
+	margin:0 auto;
+	margin-left:10px;
+	width:212px;
+	height:23px;
+	padding-top:2px;
+	text-align:left;
+	border:3px solid #ffffff;
+	color:#8eab7f;
+	background-color:#ffffff;
+}
+
+/*  DESKTOP  */
+@media only screen and (min-device-width: 768px)
+{
+	#dropdownButtonContainer
+	{
+		height:18px;
+		padding-top:1px;
+	}
+}
